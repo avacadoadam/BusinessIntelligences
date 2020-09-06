@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ecc0d67-815e-48ba-940d-8a519ce748d2" name="Default Changelist" comment="" />
+    <list default="true" id="6ecc0d67-815e-48ba-940d-8a519ce748d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Init.py" beforeDir="false" afterPath="$PROJECT_DIR$/Init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_template/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_template/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_template/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_template/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1h9XheR8tKSXNwb1QKGv8eNC7tn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -41,7 +53,7 @@
       <workItem from="1599424407520" duration="1186000" />
       <workItem from="1599426036855" duration="918000" />
       <workItem from="1599430419360" duration="1519000" />
-      <workItem from="1599432247218" duration="334000" />
+      <workItem from="1599432247218" duration="1038000" />
     </task>
     <servers />
   </component>
@@ -57,10 +69,10 @@
       <screen x="0" y="0" width="1280" height="796" />
     </state>
     <state x="270" y="9" width="837" height="777" key="find.popup/1280.0.1440.900/0.0.1280.796@0.0.1280.796" timestamp="1599424703723" />
-    <state x="1594" y="136" width="754" height="765" key="search.everywhere.popup" timestamp="1599427530912">
+    <state x="1594" y="136" width="754" height="765" key="search.everywhere.popup" timestamp="1599432864880">
       <screen x="1280" y="0" width="1440" height="900" />
     </state>
     <state x="279" y="120" width="670" height="676" key="search.everywhere.popup/1280.0.1440.900/0.0.1280.796@0.0.1280.796" timestamp="1599424717895" />
-    <state x="1594" y="136" width="754" height="765" key="search.everywhere.popup/1280.0.1440.900/0.0.1280.796@1280.0.1440.900" timestamp="1599427530912" />
+    <state x="1594" y="136" width="754" height="765" key="search.everywhere.popup/1280.0.1440.900/0.0.1280.796@1280.0.1440.900" timestamp="1599432864880" />
   </component>
 </project>

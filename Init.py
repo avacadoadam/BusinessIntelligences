@@ -17,6 +17,6 @@ projectName = input("What is the name of the project")
 # Make sure mongoDB is running
 
 # then run the command below
-os.system('docker run -p 8050:8050 scrapinghub/splash')
+os.system('')
 # init splash
 

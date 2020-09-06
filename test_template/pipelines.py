@@ -13,7 +13,7 @@ class <ProjectName>Pipeline:
     def process_item(self, item, spider):
         return item
 
-'''<MongoDBPipeLine>
+''' <MongoDBPipeLine>
 class MongoPipeline(object):
 
     collection_name = '<MongodbCollectionName>'
