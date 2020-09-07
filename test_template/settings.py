@@ -7,10 +7,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = '<ProjectName>'
+BOT_NAME = 'BusinessIntelligences'
 
-SPIDER_MODULES = ['<ProjectName>.spiders']
-NEWSPIDER_MODULE = '<ProjectName>.spiders'
+SPIDER_MODULES = ['BusinessIntelligences.spiders']
+NEWSPIDER_MODULE = 'BusinessIntelligences.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -41,7 +41,6 @@ ROBOTSTXT_OBEY = False
 #   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
 #   'Accept-Language': 'en',
 #}
-''' <Splash>
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 SPLASH_URL = 'http://192.168.59.103:8050'
@@ -51,7 +50,6 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy_splash.SplashMiddleware': 725,
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
 }
-'''
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 # Enable or disable extensions
@@ -63,7 +61,8 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   # <MongoDBPipeLine> '<ProjectName>.pipelines.MongoPipelne': 300,
+    'BusinessIntelligences.pipelines.Hosting': 250,
+   'BusinessIntelligences.pipelines.MongoPipelne': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -88,9 +87,10 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 
-'''' #mongoDB settings <MongoDBsettings>
-MONGODB_SERVER = "localhost"
+
+MONGODB_SERVER = "mongodb://root:WQkow8TnVZnA@WQkow8TnVZnA:27017"
 MONGODB_PORT = 27017
 MONGODB_DB = "stackoverflow"
 MONGODB_COLLECTION = "questions" 
-'''
+# The default username and password is 'root' and 'WQkow8TnVZnA'.
+# conn = pymongo.MongoClient('mongodb://root:pass@localhost:27017/')

@@ -7,7 +7,7 @@ To set up this project you will need find and replace functionality
 ###### Intellji or pycharm:
 edit -> find -> replace in path
 ##Step 1:
-Find all \<projectName> and replace with the project name
+Find all \BusinessIntelligences and replace with the project name
 
 ##Step 2 (If using mongoDB)
 If using mongodb
@@ -25,3 +25,5 @@ Look for the comment section of code labeled as \<Splash> uncommented this out
 then run the command below for splash service 
  <br>
 docker run -p 8050:8050 scrapinghub/splash
+
+Creden

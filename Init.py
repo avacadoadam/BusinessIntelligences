@@ -4,9 +4,9 @@ projectName = input("What is the name of the project")
 
 
 
-# Find all <projectName> and replace with input
+# Find all BusinessIntelligences and replace with input
 # In intellji or pycharm edit -> find -> replace in path
-# Find : <ProjectName> with your project name
+# Find : BusinessIntelligences with your project name
 
 # If using mongodb
 # search for #mongoDB or <MongoDBsettings>

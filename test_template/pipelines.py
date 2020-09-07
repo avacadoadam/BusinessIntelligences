@@ -5,15 +5,18 @@
 
 
 # useful for handling different item types with a single interface
-from itemadapter import ItemAdapter
 import logging
 import pymongo
 
-class <ProjectName>Pipeline:
+class BusinessIntelligencesPipeline:
     def process_item(self, item, spider):
         return item
 
-''' <MongoDBPipeLine>
+#
+class getHostingInformation:
+    def process_item(self,item, spider):
+       pass
+
 class MongoPipeline(object):
 
     collection_name = '<MongodbCollectionName>'
@@ -45,4 +48,3 @@ class MongoPipeline(object):
         self.db[self.collection_name].insert(dict(item))
         logging.debug("Post added to MongoDB")
         return item
-'''
